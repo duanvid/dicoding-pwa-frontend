@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="List of Restaurant serving hot and spicy food in Indonesia">
+  <meta name="theme-color" content="#DB0000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="manifest" href="./app.webmanifest" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/icon_192x192.png" />
+
+  <link rel="preconnect" href="https://use.fontawsome.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <script defer="defer" src="https://use.fontawesome.com/b070c8f1df.js"></script>
+  <title>Hot Food Finder</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to Content</a>
+  <div id="overlay" class="closed"></div>
+  <header>
+    <button id="menu" aria-label="tombol menu" >☰</button>
+    <app-bar></app-bar>
+    <div class="nav-bar" id="navigationDrawer">
+      <div class='user_brand'>
+        <div class='user_image'>
+        </div>
+        <span class="material-symbols-outlined xlarge">
+          account_circle
+        </span>
+        <p class='user_name'> Halo User!</p>
+      </div>
+      <nav>
+        <ul id='nav' class='nav'>
+          <li>
+            <a href='/'class='nav-item'>
+              <span class="material-symbols-outlined">
+                home
+              </span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href='#/favorite' class='nav-item' id='favbutton'>
+              <span class="material-symbols-outlined">
+                favorite
+              </span>
+              Favorite
+            </a>
+          </li>
+          <li>
+            <a href='https://github.com/duanvid' class='nav-item'>
+              <span class="material-symbols-outlined">
+                person
+              </span>
+              About
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="0">
+  </main>
+
+  <footer>
+    <p class="footer-text">copyright &#169 - HotFoodFinder</p>
+  </footer>
+
+
+ </body>
+</html>
