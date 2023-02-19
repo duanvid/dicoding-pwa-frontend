@@ -234,13 +234,13 @@ restaurant-item, restaurant-skeleton {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #2dc2a3;
+  background-color: #116453;
 }
 
 .card__header>a {
   text-decoration: none;
   min-height: 45px;
-  color: #1f1f1f
+  color: #fff
 }
 
 .resto__rating {
@@ -525,7 +525,7 @@ footer {
 }
 
 .input__review {
-  min-height: 2rem;
+  min-height: 45px;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 0.5rem;
@@ -551,6 +551,13 @@ footer {
   padding: 0 20px;
 
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.342);
+}
+
+.food>a {
+  display: flex;
+  min-height: 45px;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 650px) {
