@@ -2,7 +2,7 @@ const path = require('path');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 const { merge } = require('webpack-merge');
 // eslint-disable-next-line prefer-destructuring
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const common = require('./webpack.common');
@@ -30,7 +30,7 @@ module.exports = merge(common, {
     new WorkboxWebpackPlugin.GenerateSW({
       swDest: './sw.bundle.js',
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     new WebpackPwaManifest({
       filename: 'app.webmanifest',
       name: 'Hot Food finder',
